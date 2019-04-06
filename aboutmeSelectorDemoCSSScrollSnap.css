@@ -1,0 +1,64 @@
+body{
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+
+	font-family: calibri;
+}
+div{
+	text-align: center;
+}
+#gallery{
+	background-color: gold;
+	height: 100vh;
+	scroll-snap-align: start;
+}
+#gallery1{
+	background-color: olivedrab;
+	height: 100vh;
+	scroll-snap-align: start;
+}
+/*Element*/
+li{
+
+}
+
+/*Class*/
+.hello{
+
+}
+
+/*Id*/
+#name{
+
+}
+
+/*Star*/
+*{
+	/*border: 1px ridge orange;(It'll add to every element)*/
+}
+
+/*Descendant Selector*/
+ul li a{
+	/*Every anchor tag inside the li which is inside an ul*/
+}
+
+ 
+/*adjacent Selector*/
+h3+p{
+	border: 5px white;
+}
+
+/*Attribute Selector*/
+a[href="https://www.google.com"]{
+	background-color: blue;
+	color: white;
+}
+input[type="checkbox"]{
+	background-color: magenta;
+}
+
+/*nth of type*/
+li: nth-of-type(3){ 
+	background: purple;	
+}
+
